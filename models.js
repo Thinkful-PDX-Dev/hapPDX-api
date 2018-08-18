@@ -12,6 +12,14 @@ const barSchema = mongoose.Schema({
   description: {type: String}
 })
 
+barSchema.set('toObject', {
+  transform: function (doc,ret) {
+    ret.id = ret._id;
+    delete ret._id;
+    delete ret.__v;
+  }
+});
+
 barSchema.methods.serialize = function() {
   return {
     id: this._id,
@@ -22,6 +30,8 @@ barSchema.methods.serialize = function() {
   }
 }
 
-const Bar = mongoose.model("Bar", barSchema);
+// const Bar = mongoose.model("Bar", barSchema);
 
-module.exports = {Bar}
+// module.exports = {Bar}
+
+module.exports = mongoose.model('Bar', barSchema)

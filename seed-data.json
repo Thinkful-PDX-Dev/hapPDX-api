@@ -1,18 +1,25 @@
-{
+[{
   "name": "Sapphire Hotel",
   "address": "5008 SE Hawthorne Blvd, Portland, OR 97215",
   "hours": "Daily 4-6 pm, Sunday-Thursday 10pm-close",
   "description": "$2 Pabst, $4 wells, $5 wine, $6 cocktails, $3-7 menu"
-}
+},
 {
   "name": "Church",
   "address": "2600 NE Sandy Blvd, Portland, OR 97232",
   "hours": "Daily 4-7 pm",
   "description": "$1 off house wine, $5-7 cocktails, $5-8 menu"
-}
+},
 {
   "name": "The Know",
   "address": "3728 NE Sandy Blvd, Portland, OR 97232",
   "hours": "Daily 4-7pm",
   "description": "$1 off draft beer, $2-5 menu"
+},
+{
+  "name": "Roscoes",
+  "address": "8105 SE Stark St.",
+  "hours": "Daily 4-6pm",
+  "description": "$2.50 well drinks, $3 microbrews, food deals"
 }
+]

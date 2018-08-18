@@ -19,6 +19,8 @@
   "homepage": "https://github.com/Thinkful-PDX-Dev/AppyHour-api#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
     "express": "^4.16.2",
     "mongoose": "^5.0.15"
   },
