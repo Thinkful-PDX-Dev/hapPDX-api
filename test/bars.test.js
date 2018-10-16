@@ -31,4 +31,22 @@ describe('Testing "/bars" endpoints', () => {
 	after(() => {
 		return mongoose.disconnect();
 	});
+
+	describe("GET /bars", () => {
+		it("Should return a list of bars", () => {
+			return Promise.all([chai.request(app).get("/bars"), Bar.find()]).then(
+				([res, data]) => {
+					res.body.forEach((bar, index) => {
+						expect(bar).to.be.an("object");
+						expect(bar).to.contain.keys("id", "name", "address", "hours");
+
+						expect(bar.id).to.equal(data[index].id);
+						expect(bar.name).to.equal(data[index].name);
+						expect(bar.address).to.equal(data[index].address);
+						expect(bar.hours).to.equal(data[index].hours);
+					});
+				}
+			);
+		});
+	});
 });
