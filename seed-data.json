@@ -1,112 +1,112 @@
 [
-  {
-    "name": "Sapphire Hotel",
-    "address": "5008 SE Hawthorne Blvd, Portland, OR 97215",
-    "hours": "Daily 4-6 pm, Sunday-Thursday 10pm-close",
-    "description": "$2 Pabst, $4 wells, $5 wine, $6 cocktails, $3-7 menu"
-  },
-  {
-    "name": "Church",
-    "address": "2600 NE Sandy Blvd, Portland, OR 97232",
-    "hours": "Daily 4-7 pm",
-    "description": "$1 off house wine, $5-7 cocktails, $5-8 menu"
-  },
-  {
-    "name": "The Know",
-    "address": "3728 NE Sandy Blvd, Portland, OR 97232",
-    "hours": "Daily 4-7pm",
-    "description": "$1 off draft beer, $2-5 menu"
-  },
-  {
-    "name": "Roscoes",
-    "address": "8105 SE Stark St.",
-    "hours": "Daily 4-6pm",
-    "description": "$2.50 well drinks, $3 microbrews, food deals"
-  },
-  {
-    "name": "Red Star Tavern",
-    "description": "Roomy, rustic tavern at the Hotel Monaco offering New American eats, local beers & cocktails.",
-    "address": "503 SW Alder St, Portland, OR 97204",
-    "hours": "Daily 2:00 p.m. - 6:00 p.m. & 10:00 p.m. - Close",
-    "neighborhood": "downtown",
-    "phone": "503.222.0005",
-    "rating": "4.1",
-    "review": "Decent happy hour and good people watching if you get a table near the window.",
-    "price": "$$",
-    "link": "https://redstartavern.com/",
-    "img": "https://images.oyster.com/photos/restaurants-bars--v1030969-67-720.jpg"
-  },
-  {
-    "name": "blank",
-    "description": "American comfort food in renovated warehouse with early/late happy hour, pool & TVs showing sports.",
-    "address": "1338 NW Hoyt St, Portland, Or 97209",
-    "hours": "Daily 3pm – 6:30pm, Daily 9:30pm – close, W 9pm – 10pm",
-    "neighborhood": "NW",
-    "phone": "(503) 943-5995",
-    "rating": "4.2",
-    "review": "Fun spot after work for cocktails and dinner.  They also have an open back half of the restaurant for parties.  Attended quite a few myself and the staff was awesome.  Please note, a must have every time is their artichoke dip!",
-    "price": "$$",
-    "link": "http://www.brixtavern.com/",
-    "img": "https://media-cdn.tripadvisor.com/media/photo-s/04/75/61/76/the-bar.jpg",
-    "patio": true
-  },
-  {
-    "name": "Bartini",
-    "description": "Tiny bar with a bustling vibe offers martinis & a long list of specialty drinks plus small plates.",
-    "address": "2108 NW Glisan St, Portland, OR 97210",
-    "hours": "Sun & Mon 4pm - close, Tues thru Sat 4 ‒ 6:30PM, 9:30PM ‒ close*",
-    "neighborhood": "NW",
-    "phone": "(503) 224-7919",
-    "review": "Fantastic cocktails and really great prices on happy hour specials.",
-    "price": "$$",
-    "link": "http://www.bartinipdx.com/",
-    "img": "http://portlandoregon.syncinteractive.net/upload/,business/650_DSC_0275_435.JPG",
-    "patio": true
-  },
-  {
-    "name": "Keys Lounge",
-    "description": "",
-    "address": "533 NE Killingsworth St, Portland, OR 97211",
-    "hours": "3pm-7pm, 11pm - 2am daily",
-    "neighborhood": "North PDX",
-    "phone": "503-719-7409",
-    "rating": "4",
-    "review": "Great happy hour, fun decor, hip crowd. This place used to be a locksmith, hence the name. The bar has keys under a later if resignation as a reminder of the theme. Nice booths for medium sized groups a large patio for larger groups, though some book club had it booked tonight... Decent burger, I appreciate the pemento cheese, I think fried chicken sandwich might be the way to go.",
-    "price": "$",
-    "link": "https://www.keyspdx.com/",
-    "img": "https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/v1/1318227/DSC_0058_ytgaak.jpg",
-    "patio": true
-  },
-  {
-    "name": "The Fixin' To",
-    "description": "The Fixin' To is a southern-inspired honky tonk located at the entrance of Portland's historic St. Johns neighborhood. We host live music most nights of the week as well as DJs, karaoke, and we'll flip the TV on to whatever floats your boat.",
-    "address": "8218 N Lombard St, Portland, OR 97203",
-    "hours": "4pm-7pm",
-    "neighborhood": "St. Johns",
-    "phone": "(503) 477-4995",
-    "rating": "4",
-    "price": "$",
-    "link": "https://www.thefixinto.com/",
-    "patio": true
-  },
-  {
-    "name": "Ringside Steakhouse",
-    "address": "2165 W Burnside St, Portland, OR 97210",
-    "hours": "4pm-7pm, 11pm-midnigh",
-    "link": "http://www.ringsidesteakhouse.com/",
-    "patio": true
-  },
-  {
-    "name": "Florida Room",
-    "description": "Dimly lit bar with sassy sayings on a reader board features a smoking patio, photo booth & pinball.",
-    "address": "435 N Killingsworth St, Portland, OR 97217",
-    "neighborhood": "North PDX",
-    "hours": "3pm-6pm",
-    "phone": "(503) 287-5658​",
-    "rating": "4.3",
-    "price": "$",
-    "link": "http://www.floridaroom.org/",
-    "img": "http://thetraveljoint.com/wp-content/uploads/2015/10/floridaroom2.jpg",
-    "patio": true
-  }
+	{
+		"name": "Sapphire Hotel",
+		"address": "5008 SE Hawthorne Blvd, Portland, OR 97215",
+		"hours": "Daily 4-6 pm, Sunday-Thursday 10pm-close",
+		"description": "$2 Pabst, $4 wells, $5 wine, $6 cocktails, $3-7 menu"
+	},
+	{
+		"name": "Church",
+		"address": "2600 NE Sandy Blvd, Portland, OR 97232",
+		"hours": "Daily 4-7 pm",
+		"description": "$1 off house wine, $5-7 cocktails, $5-8 menu"
+	},
+	{
+		"name": "The Know",
+		"address": "3728 NE Sandy Blvd, Portland, OR 97232",
+		"hours": "Daily 4-7pm",
+		"description": "$1 off draft beer, $2-5 menu"
+	},
+	{
+		"name": "Roscoes",
+		"address": "8105 SE Stark St.",
+		"hours": "Daily 4-6pm",
+		"description": "$2.50 well drinks, $3 microbrews, food deals"
+	},
+	{
+		"name": "Red Star Tavern",
+		"description": "Roomy, rustic tavern at the Hotel Monaco offering New American eats, local beers & cocktails.",
+		"address": "503 SW Alder St, Portland, OR 97204",
+		"hours": "Daily 2:00 p.m. - 6:00 p.m. & 10:00 p.m. - Close",
+		"neighborhood": "downtown",
+		"phone": "503.222.0005",
+		"rating": "4.1",
+		"review": "Decent happy hour and good people watching if you get a table near the window.",
+		"price": "$$",
+		"link": "https://redstartavern.com/",
+		"img": "https://images.oyster.com/photos/restaurants-bars--v1030969-67-720.jpg"
+	},
+	{
+		"name": "blank",
+		"description": "American comfort food in renovated warehouse with early/late happy hour, pool & TVs showing sports.",
+		"address": "1338 NW Hoyt St, Portland, Or 97209",
+		"hours": "Daily 3pm – 6:30pm, Daily 9:30pm – close, W 9pm – 10pm",
+		"neighborhood": "NW",
+		"phone": "(503) 943-5995",
+		"rating": "4.2",
+		"review": "Fun spot after work for cocktails and dinner.  They also have an open back half of the restaurant for parties.  Attended quite a few myself and the staff was awesome.  Please note, a must have every time is their artichoke dip!",
+		"price": "$$",
+		"link": "http://www.brixtavern.com/",
+		"img": "https://media-cdn.tripadvisor.com/media/photo-s/04/75/61/76/the-bar.jpg",
+		"patio": true
+	},
+	{
+		"name": "Bartini",
+		"description": "Tiny bar with a bustling vibe offers martinis & a long list of specialty drinks plus small plates.",
+		"address": "2108 NW Glisan St, Portland, OR 97210",
+		"hours": "Sun & Mon 4pm - close, Tues thru Sat 4 ‒ 6:30PM, 9:30PM ‒ close*",
+		"neighborhood": "NW",
+		"phone": "(503) 224-7919",
+		"review": "Fantastic cocktails and really great prices on happy hour specials.",
+		"price": "$$",
+		"link": "http://www.bartinipdx.com/",
+		"img": "http://portlandoregon.syncinteractive.net/upload/,business/650_DSC_0275_435.JPG",
+		"patio": true
+	},
+	{
+		"name": "Keys Lounge",
+		"description": "",
+		"address": "533 NE Killingsworth St, Portland, OR 97211",
+		"hours": "3pm-7pm, 11pm - 2am daily",
+		"neighborhood": "North PDX",
+		"phone": "503-719-7409",
+		"rating": "4",
+		"review": "Great happy hour, fun decor, hip crowd. This place used to be a locksmith, hence the name. The bar has keys under a later if resignation as a reminder of the theme. Nice booths for medium sized groups a large patio for larger groups, though some book club had it booked tonight... Decent burger, I appreciate the pemento cheese, I think fried chicken sandwich might be the way to go.",
+		"price": "$",
+		"link": "https://www.keyspdx.com/",
+		"img": "https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/v1/1318227/DSC_0058_ytgaak.jpg",
+		"patio": true
+	},
+	{
+		"name": "The Fixin' To",
+		"description": "The Fixin' To is a southern-inspired honky tonk located at the entrance of Portland's historic St. Johns neighborhood. We host live music most nights of the week as well as DJs, karaoke, and we'll flip the TV on to whatever floats your boat.",
+		"address": "8218 N Lombard St, Portland, OR 97203",
+		"hours": "4pm-7pm",
+		"neighborhood": "St. Johns",
+		"phone": "(503) 477-4995",
+		"rating": "4",
+		"price": "$",
+		"link": "https://www.thefixinto.com/",
+		"patio": true
+	},
+	{
+		"name": "Ringside Steakhouse",
+		"address": "2165 W Burnside St, Portland, OR 97210",
+		"hours": "4pm-7pm, 11pm-midnigh",
+		"link": "http://www.ringsidesteakhouse.com/",
+		"patio": true
+	},
+	{
+		"name": "Florida Room",
+		"description": "Dimly lit bar with sassy sayings on a reader board features a smoking patio, photo booth & pinball.",
+		"address": "435 N Killingsworth St, Portland, OR 97217",
+		"neighborhood": "North PDX",
+		"hours": "3pm-6pm",
+		"phone": "(503) 287-5658​",
+		"rating": "4.3",
+		"price": "$",
+		"link": "http://www.floridaroom.org/",
+		"img": "http://thetraveljoint.com/wp-content/uploads/2015/10/floridaroom2.jpg",
+		"patio": true
+	}
 ]
