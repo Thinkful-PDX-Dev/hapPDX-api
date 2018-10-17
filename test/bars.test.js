@@ -49,4 +49,27 @@ describe('Testing "/bars" endpoints', () => {
 			);
 		});
 	});
+
+	//this part not committed yet
+	describe("GET /bars/:id", () => {
+		it("Should correctly return one bar", () => {
+			let barData;
+			return Bar.findOne()
+				.then(res => {
+					barData = res;
+					return chai.request(app).get(`/bars/${barData.id}`);
+				})
+				.then(res => {
+					expect(res).to.have.status(200);
+					expect(res).to.be.json;
+					expect(res.body).to.be.an("object");
+					expect(res.body).to.contain.keys("id", "name", "address", "hours");
+
+					expect(res.body.id).to.equal(barData.id);
+					expect(res.body.name).to.equal(barData.name);
+					expect(res.body.address).to.equal(barData.address);
+					expect(res.body.hours).to.equal(barData.hours);
+				});
+		});
+	});
 });
