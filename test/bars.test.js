@@ -101,4 +101,23 @@ describe('Testing "/bars" endpoints', () => {
 				});
 		});
 	});
+
+	describe("DELETE /bars/:id", () => {
+		it("Should delete an existing bar and respond with 204 status code", () => {
+			let data;
+			return Bar.findOne()
+				.then(resData => {
+					data = resData;
+					return chai.request(app).delete(`/bars/${data.id}`);
+				})
+				.then(res => {
+					expect(res).to.have.status(204);
+					expect(res.body).to.be.empty;
+					return Bar.count({ _id: data.id });
+				})
+				.then(count => {
+					expect(count).to.equal(0);
+				});
+		});
+	});
 });
