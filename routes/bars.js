@@ -1,41 +1,36 @@
 "use strict";
 
 const express = require("express");
-const app = express();
+// const app = express();
 
 const Bar = require("../models");
 
 const router = express.Router();
 
 //get data for all bars
-router.get("/", (req, res) => {
+router.get("/", (req, res, next) => {
 	Bar.find()
 		.then(results => {
 			//serialize each response
 			res.json(results.map(bar => bar.serialize()));
 			// res.json(results);
 		})
-		.catch(err => {
-			//error if request fails
-			console.error(err);
-			res.status(500).json({ error: "bad bad bad" });
-		});
+		//passes error on to error handler in routes/index.js
+		.catch(err => next(err));
 });
 
 //get data for single bar by id
-router.get("/:id", (req, res) => {
+router.get("/:id", (req, res, next) => {
 	Bar.findById(req.params.id)
 		.then(bar => {
 			res.json(bar.serialize());
 		})
-		.catch(err => {
-			console.error(err);
-			res.status(500).json({ error: "ughhhhhhhh no no" });
-		});
+		//passes error on to error handler in routes/index.js
+		.catch(err => next(err));
 });
 
 //post bar data
-router.post("/", (req, res) => {
+router.post("/", (req, res, next) => {
 	//required fields for post
 	let requiredFields = ["name", "address", "hours"];
 	//check if each required field is present. If a field is not present, return an error message
@@ -62,14 +57,12 @@ router.post("/", (req, res) => {
 		.then(newBar => {
 			res.status(201).json(newBar.serialize());
 		})
-		.catch(err => {
-			console.error(err);
-			res.status(500).json({ error: "ughhhhhhhh no no" });
-		});
+		//passes error on to error handler in routes/index.js
+		.catch(err => next(err));
 });
 
 //update bar data object
-router.put("/:id", (req, res) => {
+router.put("/:id", (req, res, next) => {
 	const { id } = req.params;
 	let {
 		name,
@@ -105,22 +98,18 @@ router.put("/:id", (req, res) => {
 		.then(result => {
 			res.status(201).json(result);
 		})
-		.catch(err => {
-			console.error(err);
-			res.status(500).json({ error: "ughhhhhhhh no no" });
-		});
+		//passes error on to error handler in routes/index.js
+		.catch(err => next(err));
 });
 
 //delete bar data object
-router.delete("/:id", (req, res) => {
+router.delete("/:id", (req, res, next) => {
 	Bar.findByIdAndRemove(req.params.id)
 		.then(() => {
 			res.status(204).json({ message: "success, my friend!" });
 		})
-		.catch(err => {
-			console.error(err);
-			res.status(500).json({ error: "ughhhhhhhh no no" });
-		});
+		//passes error on to error handler in routes/index.js
+		.catch(err => next(err));
 });
 
 module.exports = router;
